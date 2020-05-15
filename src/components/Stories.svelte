@@ -1,3 +1,7 @@
+<script>
+  export let nickname;
+</script>
+
 <style>
   .Stories {
     border: 1px solid rgba(219, 219, 219, 1);
@@ -69,7 +73,7 @@
           <img src="https://arepa.s3.amazonaws.com/oscar.png" alt="" />
         </div>
         <h2>
-          leo.ramosa
+          {nickname}
           <span>10 horas antes</span>
         </h2>
       </div>

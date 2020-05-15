@@ -20,7 +20,7 @@
 <div class="Sidebar">
   <div class="Sidebar-container">
     <Profile {nickname} {name} />
-    <Stories />
+    <Stories {nickname} />
     <Footer />
   </div>
 </div>
